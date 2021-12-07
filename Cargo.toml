@@ -1,8 +1,14 @@
 [package]
 name = "r5"
 author = ["Don Dikaio <d@dika.io>"]
+repository = "https://github.com/dikaio/r5"
+readme = "README.md"
+keywords = ["web framework", "rust", "actix"]
+license = "MIT"
+license-file = "LICENSE"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+actix-rt = "2.5.0"
 actix-web = "3"

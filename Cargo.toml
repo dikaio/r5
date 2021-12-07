@@ -12,3 +12,4 @@ homepage = "https://r5.io/"
 [dependencies]
 actix-rt = "2.5.0"
 actix-web = "3"
+serde = "1.0.130"
